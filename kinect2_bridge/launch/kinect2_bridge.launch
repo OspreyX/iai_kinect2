@@ -9,6 +9,6 @@
 
   <node name="kinect2_bridge" pkg="kinect2_bridge" type="kinect2_bridge" respawn="true" output="screen">
     <param name="camera" value="$(arg camera)" type="string"/>
-    <param name="device_id" value="$(arg device_id") type="string"/>
+    <param name="device_id" value="$(arg device_id)" type="string"/>
   </node>
 </launch>
