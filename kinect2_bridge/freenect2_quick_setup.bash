@@ -1,6 +1,3 @@
-#udev for vision
-sudo cp udev/50-kinect2.rules /etc/udev/rules.d/
-
 #dependencies
 sudo apt-get install -y ros-indigo-perception
 sudo apt-get install -y nvidia-331-dev
