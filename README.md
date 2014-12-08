@@ -1,3 +1,13 @@
+# Quick Start:
+
+- Clone me into a workspace
+- Run `kinect2_bridge/script/freenect2_quick_setup.bash`
+- Copy `kinect2_bridge/udev/*` into `/etc/udev/rules.d/`
+- `catkin_make`
+- `roslaunch kinect2_bridge kinect2_bridge.launch camera:=camera device_id:=#1`
+
+---
+
 # IAI Kinect2
 
 ## Maintainer
