@@ -19,8 +19,5 @@ cmake CMakeLists.txt
 make
 sudo make install
 
-# Remove existing entries
-sed -i "/\b\(LD_LIBRARY_PATH\)\b/d" ~/.bashrc
-
-# Append to LD_LIBRARY_PATH
-#echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/:/usr/local/./lib64/' >> ~/.bashrc
+# Link to shared libs
+sudo ln -sf /usr/local/lib64/* /usr/local/lib/
