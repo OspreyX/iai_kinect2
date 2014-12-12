@@ -23,4 +23,4 @@ sudo make install
 sed -i "/\b\(LD_LIBRARY_PATH\)\b/d" ~/.bashrc
 
 # Append to LD_LIBRARY_PATH
-echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/:/usr/local/./lib64/' >> ~/.bashrc
+#echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/:/usr/local/./lib64/' >> ~/.bashrc
