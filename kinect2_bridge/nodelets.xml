@@ -1,0 +1,11 @@
+<library path="lib/libfreenect2_camera">
+
+    <class name="freenect2_camera/freenect2_nodelet"
+           type="freenect2_camera::Freenect2Nodelet"
+           base_class_type="nodelet::Nodelet">
+        <description>
+            Freenect2 Device Bridge Nodelet
+        </description>
+    </class>
+
+</library>

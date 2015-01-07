@@ -201,8 +201,6 @@ public:
   {
     std::string serial;
 
-    device = freenect2.openDefaultDevice();
-
     if(device_id_.size() > 1 && device_id_[0] == '#'){
       freenect2.enumerateDevices();
 
